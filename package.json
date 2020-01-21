@@ -1,0 +1,25 @@
+{
+  "name": "cors-proxy",
+  "version": "1.0.0",
+  "description": "Proxy Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TYSON",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "1.11.1",
+    "proxy-from-env": "0.0.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.6",
+    "eslint": "^2.2.0",
+    "istanbul": "^0.4.2",
+    "lolex": "^1.5.0",
+    "mocha": "^3.4.2",
+    "nock": "^8.2.1",
+    "supertest": "^2.0.1"
+  }
+}
